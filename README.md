@@ -60,7 +60,7 @@ python setup.py install
   ├── raw-[reqNum].req
   └── rules.json
   ```
-- `[add_object](#add_object---add-new-parameters-dynamically-at-runtime)`: Add parameters to `QueryParams`, `HTTPHeaders`, `HTTPCookies`, `RequestBody` of requests at runtime.
+- [add_object](#add_object---add-new-parameters-dynamically-at-runtime): Add parameters to `QueryParams`, `HTTPHeaders`, `HTTPCookies`, `RequestBody` of requests at runtime.
 - `update_object`: Update parameter values for `RequestMethod`, `RequestPath`, `PathParams`, `QueryParams`, `RequestFragment`, `HTTPVersion`, `HTTPHeaders`, `HTTPCookies`, `RequestBody` of requests at runtime.
 - `delete_object`: Remove parameters from `QueryParams`, `HTTPHeaders`, `HTTPCookies`, `RequestBody` of requests at runtime.
 - `ReqTimeout`: Timeout in seconds for each HTTP request.
